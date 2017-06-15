@@ -10,7 +10,7 @@ function startChromium() {
     return false;
   }
 
-  execFile(chromium, ['--headless', '--disable-gpu', '--remote-debugging-port=9222']);
+  execFile(chromium, ['--headless', '--disable-gpu', '--remote-debugging-port=19222']);
   return true;
 }
 
