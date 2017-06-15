@@ -12,6 +12,7 @@ RUN apt-get update && apt-get install -y \
   google-chrome-beta \
   && rm -rf /var/lib/apt/lists/*
 
+#test for autobuild in dockerhub
 
 # Check to see if the the version included in the base runtime satisfies
 # '>=7.6', if not then do an npm install of the latest available
